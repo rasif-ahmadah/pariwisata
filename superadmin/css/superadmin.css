@@ -1,0 +1,26 @@
+.isi{
+    margin-top: 150px !important;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px !important;
+}
+
+.listAdminSheet{
+    background: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px !important;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 2000px) {
+    .lform{
+        margin-top:150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+@media screen and (max-width: 500px) {
+    .lform{
+        margin-top:0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

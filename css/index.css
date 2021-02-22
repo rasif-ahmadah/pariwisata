@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+}
+.bg_full { 
+    /* The image used */
+    background-image: url("../images/bg-index.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.row{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+/* .sec1{
+    padding-top: 15% !important;
+    height: 70%;
+    background: rgba(3, 53, 15, 0.7);
+    color :white;
+} */
+.sec1{
+    padding-top: 50% !important;
+    height: 100%;
+    background: rgba(1, 20, 24, 0.705);
+    color :white;
+}
+@media screen and (min-width: 781px) {
+    .sec1{
+        padding-top: 17% !important;
+        
+    }
+}
+
+@media screen and (max-width:425px) {
+    .sec1{
+        padding-top: 17% !important;
+        height: 50%;
+    }
+}
+.sec2{
+    padding: 30px !important;
+    background: #fcfcfc;
+}
+h1,h2{
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.445)
+}
+a {
+    color:black;
+}
+
+.card-content{
+    height : 150px !important;
+}
+
+
+.card-image img{
+    height : 150px !important;
+}
